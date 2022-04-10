@@ -1,5 +1,6 @@
 # Database
 - Korea Univ. / Database / KECE445 / 2022 Spring
+- [Book - Fundamental of Database Systems 6th Edition](https://docs.ccsu.edu/curriculumsheets/ChadTest.pdf)
 - Lecture by Prof. Eenjun Hwang, School of Electrical Engineering, Korea University
 
 ## Lecture
