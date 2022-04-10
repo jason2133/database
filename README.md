@@ -2,8 +2,8 @@
 - Korea Univ. / Database / KECE445 / 2022 Spring
 - Lecture by Prof. Eenjun Hwang, School of Electrical Engineering, Korea University
 
-## Schedule
-|Lecture|Contents|
+## Lecture
+|Chapter|Contents|
 |:------:|:-----:|
 |0|Database Management Systems|
 |1|Database and Database Users|
