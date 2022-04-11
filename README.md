@@ -10,6 +10,8 @@
 |1|Database and Database Users|
 |2|Database System Concepts & Architecture|
 |4|SQL: Data Definition, Constraints, and Basic Queries and Updates|
+|Coding 1|Setup Manual for Autoset|
+|Coding 2|HTML, PHP & MySQL|
 |6|The Basic Relational Model|
 <!-- |5|Data Management II| -->
 
