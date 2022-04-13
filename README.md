@@ -15,7 +15,11 @@
 |6|The Basic Relational Model|
 <!-- |5|Data Management II| -->
 
-## Project
+## Project 1
 ### 미용실 예약 서비스
 - 실제 사용자 화면과 DB 연동
 - Stack : HTML5, CSS3, JavaScript, PHP, MySQL
+
+## Project 2
+### KU
+- KU-The Future
