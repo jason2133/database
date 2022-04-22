@@ -13,7 +13,7 @@
 |Coding 1|Setup Manual for Autoset|
 |Coding 2|HTML, PHP & MySQL|
 |6|The Basic Relational Model|
-|3|Data Modeling using the ER Model|
+|3|Data Modeling Using the ER Model|
 <!-- |5|Data Management II| -->
 
 ## Project 1
