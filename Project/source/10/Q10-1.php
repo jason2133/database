@@ -1,0 +1,5 @@
+<?php
+    /*
+        mysqli_connect()
+    */
+?>

@@ -1,0 +1,5 @@
+<?php
+/*
+htmlspecialchars_decode()
+*/
+?>
