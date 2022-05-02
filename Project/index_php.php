@@ -15,14 +15,14 @@
 <body>
     <div id="wrap">
         <header class="header cfixed">
-            <h1 class="logo"><a href="index.html">KU Makerspace</a></h1>
+            <h1 class="logo"><a href="">KU Makerspace</a></h1>
             <nav>
                 <ul class="gnb">
-                    <li><a href="introduction.html">기관 소개</a></li>
+                    <li><a href="">기관 소개</a></li>
                     <li><a href="">장비교육</a></li>
                     <li><a href="">장비예약</a></li>
                     <li><a href="">공지사항</a></li>
-                    <li><a href="product.html">대회 작품들</a></li>
+                    <li><a href="">대회 작품들</a></li>
                     <li><a href="login_page.php">회원가입/로그인</a></li>
                 </ul>
             </nav>
@@ -33,7 +33,8 @@
             </span>
         </header>
         <article class="slider">
-            <img src="images/kumakerspace_space.jpg" alt="">
+            <!-- <img src="images/p-images/slide01.jpg" alt=""> -->
+            <img src="images/kumakerspace_space.jpg" alt="">/
         </article>
         <section class="content">
             <section class="display-section">
@@ -46,7 +47,7 @@
                 <div class="container">
                     <ul class="promo-list">
                         <li>
-                            <a href="introduction.html">
+                            <a href="">
                                 <img src="images/ku_logo.png" alt="">
                                 <h3>기관 소개</h3>
                                 <p>고려대학교 KU메이커스페이스를 소개합니다.</p>
@@ -70,7 +71,7 @@
                             <a href="">
                                 <img src="images/icon4_icon.png" alt="">
                                 <h3>대회 작품들</h3>
-                                <p>딥러닝 NeRF 기술을 활용하여 3D로 실감나게 구현된 대회 출품 작품들! 자유롭게 구경해보세요.</p>
+                                <p>딥러닝 NeRF 기술을 활용하여 3D로 실감나게 구현한 대회 출품 작품들! 자유롭게 구경해보세요.</p>
                             </a>
                         </li>
                     </ul>
@@ -165,7 +166,7 @@
             <hr class="m-divider">
             <section class="blog-section">
                 <div class="container">
-                    <h2 class="sec-tit">장비교육</h2>
+                    <h2 class="sec-tit">장비 교육 일정</h2>
                     <ul class="blog-list">
                         <li>
                             <!-- <a href=""><img src="images/p-images/blog01.jpg" alt=""></a> -->
