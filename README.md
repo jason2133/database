@@ -14,6 +14,7 @@
 |Coding 2|HTML, PHP & MySQL|
 |6|The Basic Relational Model|
 |3|Data Modeling Using the ER Model|
+|13|Disk Storage, Basic File Structures, and Hashing|
 <!-- |5|Data Management II| -->
 
 ## Project 1
