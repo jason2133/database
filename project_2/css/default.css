@@ -117,6 +117,7 @@ height:auto;
     max-width:100%;
     margin-left:10%;
     margin-right:10%;
+    line-height: 2;
 }
 
 .introhangeul2 {
@@ -166,6 +167,30 @@ margin-bottom:30px;
     position:relative;
     margin-left:10%;
     float:left;
+}
+
+.product1 p{
+    margin-top:5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height:2;
+    position:relative;
+}
+
+.product2 p{
+    margin-top:5%;
+    margin-bottom:3%;
+    margin-left:5%;
+    margin-right:5%;
+    font-size:20px;
+    position:relative;
+    font-weight:bold;
+}
+
+.product2 iframe{
+    margin-left:5%;
+    margin-right:5%;
 }
 
 /* 디스플레이 영역 CSS */
