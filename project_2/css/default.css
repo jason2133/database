@@ -193,6 +193,26 @@ margin-bottom:30px;
     margin-right:5%;
 }
 
+.product3 button {
+    width:120px;
+    margin:auto;
+    display:block;
+    background-color: #A11616;
+    height:60px;
+    color:white;
+    border:0;
+    outline:0;
+}
+
+.product3 a {
+    color:white;
+}
+
+.product4 p {
+    margin-bottom:5%;
+    position:relative;
+}
+
 /* 디스플레이 영역 CSS */
 .display-section{
 margin-top:59px;
