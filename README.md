@@ -9,12 +9,14 @@
 |0|Database Management Systems|
 |1|Database and Database Users|
 |2|Database System Concepts & Architecture|
-|4|SQL: Data Definition, Constraints, and Basic Queries and Updates|
+|3|SQL: Data Definition, Constraints, and Basic Queries and Updates|
 |Coding 1|Setup Manual for Autoset|
 |Coding 2|HTML, PHP & MySQL|
-|6|The Basic Relational Model|
-|3|Data Modeling Using the ER Model|
-|13|Disk Storage, Basic File Structures, and Hashing|
+|4|The Basic Relational Model|
+|5|Data Modeling Using the ER Model|
+|6|ER-to-Relational Mapping|
+|7|Disk Storage, Basic File Structures, and Hashing|
+|8|Index Structures for file|
 <!-- |5|Data Management II| -->
 
 ## Project 1
