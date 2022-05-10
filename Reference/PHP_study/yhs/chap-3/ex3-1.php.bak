@@ -1,0 +1,21 @@
+<?php
+	echo "»ê¼ú ¿¬»êÀÚÀÇ È°¿ë ¿¹Á¦ <br>";
+	echo "----------------------- <br>";
+		$a = 8;
+		$b = 5;
+
+		$value = $a + $b;
+		echo "$a + $b = $value --- µ¡¼À °á°ú <br>";
+
+		$value = $a - $b;
+		echo "$a - $b = $value  --- »¬¼À °á°ú <br>";
+
+		$value = $a * $b;
+		echo "$a * $b = $value --- °ö¼À °á°ú <br>";
+
+		$value = $a / $b;
+		echo "$a / $b = $value --- ³ª´°¼À °á°ú <br>";
+
+		$value = $a % $b;
+		echo "$a % $b = $value --- ³ª¸ÓÁö ¿¬»ê °á°ú<br>";
+?>

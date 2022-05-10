@@ -1,0 +1,12 @@
+<html>
+	<head>
+	 	<title> HTML ¾È¿¡ PHP Ã·ºÎÇÏ±â </title>
+	</head>
+	<body>
+		<font size=5  color=blue  face=ÈÞ¸Õ¿¾Ã¼>
+			<?php
+				echo "HTML ¾È¿¡ PHP¸¦ Ã·ºÎÇÕ´Ï´Ù. ";
+			?>
+		</font> <br>
+	</body>
+</html>

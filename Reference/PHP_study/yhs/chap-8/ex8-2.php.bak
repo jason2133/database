@@ -1,0 +1,26 @@
+<?
+
+	echo "<h3>■ mysql_create_db( ) 함수로 'study_db' 데이터베이스 선택</h3>";
+	echo "<hr>";
+
+	$connect = mysql_connect ('localhost', 'root', '23456');   
+	$db = mysql_select_db ('study_db', $connect);
+
+	if($db)
+	{
+		echo " ★ 데이터베이스 선택 성공 ..... <br><br>";
+		echo " ..... 선택한 데이터베이스는 <B> 'study_db' </B>입니다.<br><br>";
+		echo " ★ mysql에 접속 상태 : {$connect} " ;
+		echo "<hr>";
+	} 
+	else 
+	{
+		echo "<hr>";
+		echo "▲ 데이터베이스 선택에 실패했습니다 .....  <br><br>";
+		echo "...... 함수 또는 문장, 데이터베이스 명의 오류를 검토하십시요  !!! <br>";
+	}
+
+		mysql_close($connect);   
+		echo " ▣ mysql 접속이 종료되었습니다  !!!";
+
+?>

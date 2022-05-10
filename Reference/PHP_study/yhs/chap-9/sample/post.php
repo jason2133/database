@@ -1,0 +1,5 @@
+<?php
+
+	echo $PHP_SELF;
+	echo "¾È³çÇÏ¼¼¿ä...";
+?>

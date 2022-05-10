@@ -1,0 +1,6 @@
+<?
+	session_start();
+	$count =  $HTTP_SESSION_VARS["count"] + 1;
+	session_register("cnt");
+	echo "<hr><center> 반갑습니다. $cnt 번째 방문을 환영합니다...</center>";
+	?>

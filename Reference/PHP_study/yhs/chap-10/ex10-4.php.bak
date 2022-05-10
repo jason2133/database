@@ -1,0 +1,11 @@
+<?php
+echo "<B> ※ 파일의 존재 유무를 확인하는 file_exists( )함수 </B> <hr>";
+echo "■ 찾고자 하는 파일 : <b> sample.dat </b><br>";
+echo "---------------------------------- <br>";
+$a = "sample.dat";
+if(file_exists($a))  {         // sample.dat 파일의 존재여부 체크
+	echo " O. 파일이 존재 확인완료 !! ";
+}  else  {
+	echo " X.  {$a} : 존재하지 않는 파일 !! ";
+}
+?>

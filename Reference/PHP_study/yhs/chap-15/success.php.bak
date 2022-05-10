@@ -1,0 +1,12 @@
+<?
+	echo "<br><br><center><h2> 회원 관리 프로그램 제작 성공 </h2><hr>";
+	echo " <br><br><font size=4> ->>> 회원 관리 프로그램을 가동합니다. <<<- <br><br></font>";
+	?>
+	<table border=2 bordercolor=blue width=150 height=80>
+		<tr>
+				<td><center><a href=login_form.php> 로 그 인 </a> </center></td>
+		</tr>
+		<tr>
+				<td><center><a href=add_form.php> 회원 가입 </a></center> </td>
+		</tr>
+	</table>

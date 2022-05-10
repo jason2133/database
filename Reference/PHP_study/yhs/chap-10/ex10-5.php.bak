@@ -1,0 +1,10 @@
+<?php
+echo "<B> ※ file( )함수로 불러온 파일의 크기 </B> <hr>";
+echo " ■ <b> sa.txt </b>파일에 입력된 내용<br>";
+echo "------------------------------------ <br>";
+echo " 안녕하세요... [엔터] <br>";
+echo " Hi~  <br>";
+echo "------------------------------------ <br>";
+$size = filesize("sa.txt");  
+echo " ▶ sa.txt 파일의 크기는 {$size}byte 입니다.";
+?>

@@ -1,0 +1,24 @@
+<?
+
+	echo "<h3>■ mysql_connect 함수 사용</h3>";
+	echo "<hr>";
+
+	$good = mysql_connect ('localhost', 'root', '000000');   // mysql 관리자 계정으로 접속
+
+	if($good)
+	{
+		echo "mysql 서버와 연결되었습니다..... <br>";
+		echo "..... 성공적인 APM의 고수가 되십시요. <br><br>";
+		echo $good;
+		echo "<hr>";
+	} 
+	else 
+	{
+		echo "<hr>";
+		echo "..... 접속이 안됩니다..... <br>";
+		echo "계정 또는 비밀번호를 확인하십시요 !!! <br>";
+	}
+
+	mysql_close($good);    // mysql의 접속을 종료
+
+?>

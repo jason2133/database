@@ -1,0 +1,22 @@
+<?php
+echo "<B> ※  'dir_ex' 디렉터리 안에 있는 파일 형식  </B> <hr>";
+echo " ■ 경로명 ... <B>\"c:/apm_setup/htdocs/yhs/dir_ex/\" </B><br>";
+echo " ----------------------------------------------- <br>";
+$dir = "c:/apm_setup/htdocs/yhs/dir_ex/";         // 경로명을 변수에 저장
+if(is_dir($dir))            // 디렉터리 존재 유무 판별
+{
+	if($dirop = opendir($dir))     // 디렉터리가 존재하면 열기
+	{
+		while(($filerd = readdir($dirop)) != false)    // 열려진 디렉터리 파일 읽기
+		{
+			echo " 파일명 : [ {$filerd} ]  ..... ";    // 읽어 들인 파일 출력
+			echo filetype($dir . $filerd) . " type <br>";   // 파일과 디렉터리 타입
+		}
+	}
+}  else  {
+	echo " 존재하지 않는 디렉터리입니다.";
+}
+echo " ----------------------------------------------- <br>";
+echo "■ 범례 : dir type - 디렉터리 / file type - 파일 ";
+closedir($dirop);     // 열려진 디렉터리 닫기
+?>

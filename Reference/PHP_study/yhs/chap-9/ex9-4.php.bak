@@ -1,0 +1,28 @@
+<?php
+$connect = mysql_connect('localhost',  'root', '123456');
+mysql_select_db('apm_db_01', $connect);
+if($result == 1) {
+	$tb_name = mysql_list_tables("apm_db_01");
+		$tb_count = mysql_num_rows($tb_name);
+		for($a=0; $a<$tb_count; $a++)
+			if(mysql_tablename($tb_name, $a) == "member") {
+				$flag = "OK";
+				break;
+			}
+		}
+		if($flag != "OK") {
+		$sql = "create table member ( 
+					 sno int not null,  
+					name varchar(10),  
+					addr varchar(80),
+					primary key(sno))";
+		$result = mysql_query($sql, $connect) 
+			or die 	("<h3><br><br><br><br><br><center>
+		    ▣ member 테이블은 이미 존재합니다. <br><hr><br>
+			 <a href=ex9-5.php>주소 입력 화면</a> 으로 이동하세요.</center></h3>");
+		}
+		echo "<h3><br><center><br><br><br><br>▣ member 테이블을
+		         성공적으로 만들었습니다.... <br><hr><br> ";
+		echo "<a href=ex9-5.php>주소 입력 화면</a> 으로 이동하세요.</center></h3>";
+mysql_close($connect);                 //db 연결 종료
+?>

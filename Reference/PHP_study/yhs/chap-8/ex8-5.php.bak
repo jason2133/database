@@ -1,0 +1,65 @@
+<?
+
+	echo "<h3>■ mysql_query ( ) 함수를 이용한 레코드 삽입</h3>";
+	echo "<hr>";
+
+	$connect = mysql_connect ('localhost', 'root', '123456');   
+	$db = mysql_select_db ('study_db', $connect);
+
+	/* -----  study_db 데이터베이스의 선택 성공 여부 -----  */
+
+	if($db)
+	{
+		echo "<B> ★ study_db 데이터베이스 선택 성공 </B><br><br> ";
+		echo " ...... mysql 접속 : {$connect}";
+		echo "<hr>";
+	}
+	else
+	{
+		echo "<B> ▲ study_db 데이터베이스 선택 실패 </B>";
+		echo " 프로그램을 종료합니다...";
+		exit;
+	}
+
+         /*  --------    guest 테이블에 레코드 삽입  --------   */
+
+	$sql = "INSERT INTO guest VALUES";
+	$sql = $sql."('sagang', '강산애', '남', 23, 250, 'sagnag@hanmail.net')";
+	mysql_query($sql, $connect);
+
+	$sql = "INSERT INTO guest VALUES";
+	$sql = $sql."('sbhwang', '황산벌', '남', 37, 308, 'sbhwang@nate.com')";
+	mysql_query($sql, $connect);
+
+	$sql = "INSERT INTO guest VALUES";
+	$sql = $sql."('grlee', '이겨레', '여', 19, 123, 'grlee@hanmail.net')";
+	mysql_query($sql, $connect);
+
+	$sql = "INSERT INTO guest VALUES";
+	$sql = $sql."('cskim', '김찬성', '남', 45, 569, 'cskim@naver.com')";
+	mysql_query($sql, $connect);
+
+	$sql = "INSERT INTO guest VALUES";
+	$sql = $sql."('nrshin', '신나라', '여', 33, 625, 'nrshin@hanmail.net')";
+
+	$result = mysql_query($sql, $connect);
+
+	if($result)
+	{
+		echo "<B> ● 'guest' 테이블에 5명의 레코드 삽입 성공 ..... </B><br><br>";
+		echo " ..... 축하 합니다.  " ;
+		echo "<hr>";
+	} 
+	else 
+	{
+		echo "<hr>";
+		echo "<B> ▲ 'guest' 테이블에 레코드 삽입 실패 .....  </B><br><br>";
+		echo "...... 함수 또는 SQL문법, 데이터베이스 선택 ";
+		echo " 등의 오류를 검토하십시요  !!! <br>";
+		exit;
+	}
+
+		mysql_close($connect);   
+		echo " ▣ mysql 접속이 종료되었습니다  !!!";
+
+	?>

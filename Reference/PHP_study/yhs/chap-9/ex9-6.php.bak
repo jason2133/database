@@ -1,0 +1,20 @@
+<?php
+
+$sno = $_POST['sno'];
+$name = $_POST['name'];
+$addr = $_POST['addr'];
+
+	$connect = mysql_connect('localhost',  'root', '123456');
+	mysql_select_db('apm_db_01', $connect);
+
+	$sql="insert into member (sno, name, addr) ";
+	$sql.= "values('$sno', '$name', '$addr')";
+
+	mysql_query($sql, $connect) ;        //sql 질의 수행.
+	mysql_close($connect);                 //db 연결 종료
+		echo "<center><h3><br><br>등록 완료. 축하드립니다. <br><br><hr><br>";
+		echo "이동할 화면을 선택하세요. <br><br>";
+		echo "<a href='ex9-5.php'>■  주소 입력</a> <br><br>";
+		echo "<a href='ex9-7.php'>■  결과 화면</a></h3></center>" ;
+
+?>

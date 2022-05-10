@@ -1,0 +1,22 @@
+<?php
+echo "<B> ※ 디스크의 저장 공간과 전체 공간 byte를 반환하는  함수 </B> <hr>";
+echo " ■ C 드라이브의 전체 용량   <br><br> ";
+$dsize = disk_total_space("c:/");            // 전체 용량
+$gsize = ($dsize / 1024 / 1024 / 1024);  // GB로 환산
+$by = number_format($dsize);
+$gb1 = number_format($gsize);         // 세자리마다 콤마(소수점 없어짐)
+echo " ... [ {$by} bytes ]<br>";                           // byte 단위로 출력
+echo " ... <b>[ {$gb1} GB ] </b><br><hr>";       // GB 단위로 출력
+
+echo " ▲ C 드라이브의 남은 용량  <br><br>";
+$dsize = disk_free_space("c:/");            // 남은 용량
+$gsize = ($dsize / 1024 / 1024 / 1024);
+$by = number_format($dsize);
+$gb2 = number_format($gsize);        // 세자리마다 콤마(소수점 없어짐)
+echo " ... [ {$by} bytes ]<br>";
+echo " ... <b>[ {$gb2} GB ] </b><hr>";
+$tot = ($gb2 / $gb1) * 100 ;                // 남은 비율 계산(%)
+$total = number_format($tot);
+echo " ▣  전체<b> {$gb1}GB</b> 중 ";
+echo " <b>{$gb2}GB</b> 남음 <b>[{$total}%]<b><br>";
+?>

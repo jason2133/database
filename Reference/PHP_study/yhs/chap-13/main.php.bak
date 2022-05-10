@@ -1,0 +1,12 @@
+<?
+	echo "<br><br><center><h2> 회원 관리 프로그램  </h2><hr>";
+	echo " <br><font size=4> ♥ 방문을 환영합니다!! 좋은 하루 되세요... ♥ </font> <br><br>";
+	?>
+	<table border=2 bordercolor=blue width=150 height=80>
+		<tr>
+				<td><center><a href=login_form.php> 로 그 인 </a> </center></td>
+		</tr>
+		<tr>
+				<td><center><a href=add_form.php> 회원 가입 </a></center> </td>
+		</tr>
+	</table>

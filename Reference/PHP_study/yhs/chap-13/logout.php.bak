@@ -1,0 +1,12 @@
+<?php
+include "../lib/session.php";
+
+unset($_SESSION['ses_userid']);     
+unset($_SESSION['ses_pass']);  
+
+echo "<center><font size=4><br><b> 로그아웃 되었습니다. </b> </font></center><hr>";
+echo "<script>
+	alert('[로그아웃] \\r\\n로그인 창으로 이동할까요?');
+	location.replace('login_form.php');
+	</script>";
+?>

@@ -1,0 +1,6 @@
+APM_Setup ¶õ?
+---------------
+A : Apache
+P : PHP
+M : MySQL
+---------------
