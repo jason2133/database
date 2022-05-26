@@ -1,0 +1,4 @@
+.buttons { text-align: center; margin: 50px; }
+.buttons li { display: inline; }
+.buttons button { padding: 3px 20px; cursor: pointer; background-color: #A11616; color:white; border:0; outline:0; height:50px; margin-right:1%;}
+.a { color:white; }
