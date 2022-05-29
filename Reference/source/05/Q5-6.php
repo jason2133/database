@@ -1,5 +1,0 @@
-<?php
-/*
-strtoupper(), strtolower()
-*/
-?>

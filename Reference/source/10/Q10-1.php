@@ -1,5 +1,0 @@
-<?php
-    /*
-        mysqli_connect()
-    */
-?>
