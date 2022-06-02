@@ -18,6 +18,8 @@
 |7|Disk Storage, Basic File Structures, and Hashing|
 |8|Index Structures for file|
 |9|Functional Dependencies and Normalization for Relational Databases|
+|10|Relational Design Algorithms and Further Dependencies|
+|11|Query Processing|
 <!-- |5|Data Management II| -->
 
 ## Project 1
