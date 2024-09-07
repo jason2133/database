@@ -36,3 +36,10 @@
 2. **[Deep Learning with NeRF]** PyTorch
 - [고려대학교 KU메이커스페이스](https://kums.korea.ac.kr/)
 - [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis (ECCV 2020 Oral)](https://www.matthewtancik.com/nerf)
+
+### KU 2022 스마트 캠퍼스 데이터톤 우수상
+- 본 프로젝트를 확장하여, 고려대학교의 데이터 활용 아이디어 및 구현 공모전인 <KU 2022 스마트 캠퍼스 데이터톤>에 도전하였으며 우수상을 수여받음.
+![aws_deploy_flow](https://github.com/user-attachments/assets/df260a8f-b5bd-43f9-940e-22284011293e)
+- Web 플랫폼에서의 기능을 보완한 후, AWS S3, AWS CloudFront, AWS IAM 등을 활용하여 Web Deploy를 수행함.
+- [KU 2022 스마트 캠퍼스 데이터톤 결과 소개](https://ic.korea.ac.kr/ic/smartcampus/datatonresult2022.do)
+- [KU 2022 스마트 캠퍼스 데이터톤 결과 홍보물 책자 e-Book Viewer](https://ibook.korea.ac.kr/Viewer/datathon22)
